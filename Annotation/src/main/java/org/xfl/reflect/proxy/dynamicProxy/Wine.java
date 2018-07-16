@@ -1,0 +1,1 @@
+package org.xfl.reflect.proxy.dynamicProxy;/** * 酒类销售许可 */public interface Wine {    void sell();}

@@ -1,0 +1,1 @@
+package org.xfl.reflect.proxy.dynamicProxy;/** * @program: learn * @description: 威士忌生产者 * @author: xfl * @create: 2018-07-16 16:06 **/public class Whisky implements Wine{    @Override    public void sell() {        System.out.println("Whisky：我是一种基酒，好喝可口，快来买我吧。");    }}

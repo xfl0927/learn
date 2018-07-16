@@ -1,0 +1,1 @@
+package org.xfl.annotation;/** * @program: learn * @description: Repeatable for Annotation * SuperMan 通过Person标签,获取一组角色标签数据 * @author: xfl * @create: 2018-07-16 13:48 **/@Person(role = "artist")@Person(role = "coder")public class SuperMan {}

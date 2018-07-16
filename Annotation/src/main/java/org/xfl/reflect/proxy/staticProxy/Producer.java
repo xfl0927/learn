@@ -1,0 +1,1 @@
+package org.xfl.reflect.proxy.staticProxy;/** * @program: learn * @description: 电影制片方 * @author: xfl * @create: 2018-07-16 15:46 **/public class Producer implements Movie{    @Override    public void play() {        System.out.println("欢迎观看《我不是药神》");    }}
