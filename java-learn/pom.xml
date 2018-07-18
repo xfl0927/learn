@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.xfl</groupId>
-  <artifactId>Java</artifactId>
+  <artifactId>Java_Base</artifactId>
   <version>1.0-SNAPSHOT</version>
   <build>
     <plugins>
