@@ -1,0 +1,1 @@
+package org.xfl.innerClass;/** * @program: learn * @description: * @author: xfl * @create: 2018-07-23 15:33 **/public class Cinema implements Movie{    @Override    public void show() {        System.out.println("放电影啦。");    }}

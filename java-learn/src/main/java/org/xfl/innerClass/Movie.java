@@ -1,0 +1,1 @@
+package org.xfl.innerClass;public interface Movie {    void show();}
