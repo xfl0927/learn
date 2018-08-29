@@ -1,0 +1,1 @@
+package org.xfl.lambda;/** * @program: learn * @description: * @author: xfl * @create: 2018-08-14 11:28 **/public class LambdaImpl implements ILambda {    public LambdaImpl(Object o) {    }    @Override    public int add(int a, int b) {        return a + b;    }}
