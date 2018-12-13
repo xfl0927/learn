@@ -1,4 +1,5 @@
 package org.xfl.schema.observer;
 
-public class Observer {
+public interface Observer {
+    public void update(String msg);
 }
