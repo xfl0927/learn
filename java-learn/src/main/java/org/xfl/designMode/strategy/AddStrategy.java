@@ -1,0 +1,1 @@
+package org.xfl.designMode.strategy;/** * @program: learn * @description: * @author: xfl * @create: 2018-12-18 10:12 **/public class AddStrategy implements Strategy {    @Override    public Integer compute(Integer a, Integer b) {        return a + b;    }}

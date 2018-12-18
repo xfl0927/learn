@@ -1,0 +1,1 @@
+package org.xfl.designMode.strategy;public interface Strategy {    Integer compute(Integer a,Integer b);}
