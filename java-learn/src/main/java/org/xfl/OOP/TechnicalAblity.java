@@ -1,0 +1,1 @@
+package org.xfl.OOP;/** * @program: learn * @description: * @author: xfl * @create: 2018-12-18 15:59 **/public interface TechnicalAblity {    /**     * 写代码     * @param order     */    void code(String order);}

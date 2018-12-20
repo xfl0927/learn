@@ -21,7 +21,7 @@ public class AddedStatus extends FilterDecorator {
     /**
      * 装饰者和被装饰者需要继承同一个接口或抽象类，两者为组合关系。
      * 亦为多态的灵活应用(方法的重写)
-     * 最复杂的事物都是由最简单的元素组成的
+     * 最复杂的事物都是由最简单的元素组成
      *
      * OOP(Object Oriented Programming):
      * 人类 Class 环境 Class

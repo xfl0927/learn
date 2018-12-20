@@ -1,0 +1,1 @@
+package org.xfl.OOP;/** * @program: learn * @description: * @author: xfl * @create: 2018-12-18 15:57 **/public interface Behaviors {    void takeTheSubway();}
