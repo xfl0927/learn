@@ -1,1 +1,0 @@
-package org.xfl.springbootlearn;import org.junit.runner.RunWith;import org.springframework.boot.test.context.SpringBootTest;import org.springframework.test.context.junit4.SpringRunner;/** * @program: learn * @description: Account测试类 * @author: xfl * @create: 2018-07-19 16:59 **/@RunWith(SpringRunner.class)@SpringBootTest(value = "")public class AccountTest {}

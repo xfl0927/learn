@@ -1,1 +1,0 @@
-package org.xfl.springbootlearn.dao;import org.xfl.springbootlearn.bean.ConfigBean;public interface TestDao {    int update(ConfigBean bean);}

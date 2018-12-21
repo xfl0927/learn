@@ -1,1 +1,0 @@
-package org.xfl.springbootlearn.dao;import org.apache.ibatis.annotations.Mapper;import org.apache.ibatis.annotations.Select;import org.springframework.data.jpa.repository.JpaRepository;import org.xfl.springbootlearn.bean.Account;import java.util.List;@Mapperpublic interface AccountDao extends JpaRepository<Account,Integer> {}
