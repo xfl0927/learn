@@ -1,0 +1,1 @@
+package org.xfl.garbageCollection;/** * @program: learn * @description: * @author: xfl * @create: 2018-12-24 11:38 **/public class MinorGC {}
