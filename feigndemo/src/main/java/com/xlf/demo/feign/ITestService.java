@@ -1,0 +1,1 @@
+package com.xlf.demo.feign;public interface ITestService {    void test();}
