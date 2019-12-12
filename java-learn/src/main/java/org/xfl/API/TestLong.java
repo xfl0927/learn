@@ -1,0 +1,1 @@
+package org.xfl.API;/** * @program: learn * @description: * @author: xfl * @create: 2019-03-26 11:58 **/public class TestLong {    public TestLong(Long id) {        this.id = id;    }    private Long id;    public Long getId() {        return id;    }    public void setId(Long id) {        this.id = id;    }}

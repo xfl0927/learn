@@ -1,0 +1,1 @@
+package org.xfl.classLoader;/** * @program: learn * @description: * @author: xfl * @create: 2019-10-14 10:55 **/public class TestInstanceof extends Classes {}

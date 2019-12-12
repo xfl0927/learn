@@ -30,5 +30,8 @@ public class GermanHotel {
             g = i;
         }
         System.out.println(g);
+
+        IGermanSocket testChildMethod = new GermanSocket();
+        ((GermanSocket) testChildMethod).privateMethod();
     }
 }
