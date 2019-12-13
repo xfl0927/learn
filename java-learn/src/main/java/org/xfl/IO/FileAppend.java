@@ -6,7 +6,8 @@ import java.math.BigInteger;
 public class FileAppend {
     public static void main(String[] args){
         //toBinary(8);
-        testOs();
+        //testOs();
+        intToHex(1000);
     }
     //在写出的文件前追加
     public static void testOs(){
@@ -79,11 +80,17 @@ public class FileAppend {
         StringBuffer s = new StringBuffer();
         String a;
         char[] b = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
+        int flag = 0;
         while (n != 0){
+            flag ++;
             s = s.append(b[n%16]);
+            System.out.println(flag + ":" + (n%16));
             n = n/16;
+            System.out.println(flag + ":" + n);
         }
+        System.out.println(s);
         a = s.reverse().toString();
+        System.out.println(a);
         return a;
     }
     public static void toBinary(int decimal){
