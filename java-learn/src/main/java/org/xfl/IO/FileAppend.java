@@ -6,8 +6,8 @@ import java.math.BigInteger;
 public class FileAppend {
     public static void main(String[] args){
         //toBinary(8);
-        //testOs();
-        intToHex(1000);
+        testOs();
+        //intToHex(1000);
     }
     //在写出的文件前追加
     public static void testOs(){
