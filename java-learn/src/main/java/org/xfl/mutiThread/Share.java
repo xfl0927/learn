@@ -21,6 +21,7 @@ public class Share {
         while (available){
             try {
                 wait();
+                System.out.println(Thread.State.WAITING);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -28,6 +29,7 @@ public class Share {
         available = true;
         this.contents = contents;
         //通知所有get等待线程 可以获取数据
+        //()
         notifyAll();
     }
 }

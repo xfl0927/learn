@@ -44,6 +44,10 @@ public class FileAppend {
                 while ((num = headIs.read(a)) != -1) {
                     os.write(a,0,num);
                 }
+                //增加换行
+                String se = System.getProperty("line.separator");
+                System.out.println("separator:" + se);
+                os.write(se.getBytes());
                 while ((bNum = is.read(b)) != -1){
                     os.write(b,0,bNum);
                 }
