@@ -27,9 +27,9 @@ public class StringAPI {
         System.out.println("------");
         InstanceA ia = new InstanceA(128);
         InstanceB ib = new InstanceB(128);
-        System.out.println(ia.A_str == ib.B_str);
-        System.out.println(ia.A_int== ib.B_int);
-        System.out.println(ia.A_con_int == ib.B_con_int);
+        System.out.println(ia.A_str == ib.B_str); //true
+        System.out.println(ia.A_int == ib.B_int);//true
+        System.out.println(ia.A_con_int == ib.B_con_int);//false
 
         System.out.println("------");
         Integer i = 128;
