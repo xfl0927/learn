@@ -1,0 +1,1 @@
+package org.xfl.API.mutiThread.safe;/** * @program: learn * @description: * @author: xfl * @create: 2018-07-25 11:34 **/public class Outputter {    public void output(String name){        for (int i = 0; i < name.length(); i++){            System.out.println(name.charAt(i));        }    }}

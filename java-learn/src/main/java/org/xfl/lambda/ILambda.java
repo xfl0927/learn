@@ -1,1 +1,0 @@
-package org.xfl.lambda;/** * @program: learn * @description: * @author: xfl * @create: 2018-08-14 11:26 **/@FunctionalInterfacepublic interface ILambda {    int add(int a, int b);}

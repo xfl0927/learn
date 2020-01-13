@@ -1,1 +1,0 @@
-package org.xfl.lambda;import java.util.function.Supplier;/** * @program: learn * @description: * @author: xfl * @create: 2018-08-27 14:36 **/public class Car {    public static Car create(Supplier<Car> supplier){        return supplier.get();    }}
